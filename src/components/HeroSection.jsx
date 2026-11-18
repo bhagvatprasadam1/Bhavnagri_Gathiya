@@ -11,7 +11,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative pt-4 pb-8 sm:pt-8 sm:pb-12 md:pb-16 bg-[#FFF8E9] bg-subtle-pattern overflow-hidden border-b border-[#E8DCC8]"
+      className="relative pt-4 pb-8 sm:pt-8 sm:pb-12 md:pb-16 bg-[#FFF8E9] bg-subtle-pattern overflow-hidden"
     >
       {/* Background Soft Atmospheric Glows with Animated Breathing Effect */}
       <motion.div
@@ -56,22 +56,8 @@ export default function HeroSection() {
             {/* Main Heading */}
             <h1 className="font-display font-black text-3xl sm:text-5xl lg:text-6xl leading-[1.05] tracking-tight text-[#3B2418] mb-3.5">
               Crunch Into Authentic <br />
-              <span className="text-[#F28C28] inline-block relative">
+              <span className="text-[#F28C28] inline-block">
                 Bhavnagri Gathiya.
-                <svg
-                  className="absolute -bottom-2 left-0 w-full text-[#E5A323]"
-                  height="10"
-                  viewBox="0 0 240 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3 7C65 2 175 2 237 7"
-                    stroke="currentColor"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                  />
-                </svg>
               </span>
             </h1>
 
@@ -83,7 +69,7 @@ export default function HeroSection() {
        
 
             {/* Primary & Secondary CTAs with Direct BUY NOW */}
-            <div className="flex flex-wrap items-center gap-3 mb-6">
+            <div className="flex flex-wrap items-center gap-3 mb-4">
               <a
                 href={PRODUCT_BUY_URL}
                 target="_blank"
@@ -102,6 +88,22 @@ export default function HeroSection() {
                 <span>Explore Details</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
+            </div>
+
+            {/* Promotional Shipping & App Badges */}
+            <div className="flex flex-wrap items-center gap-2 mb-6">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/80 border border-[#E5A323]/40 text-[#3B2418] text-[11px] sm:text-xs font-semibold shadow-xs">
+                <span className="text-[#2E7D32] font-black text-xs">✓</span>
+                <span>Free Shipping above ₹999</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/80 border border-[#F28C28]/40 text-[#3B2418] text-[11px] sm:text-xs font-semibold shadow-xs">
+                <span className="text-[#2E7D32] font-black text-xs">✓</span>
+                <span>First Order: Free Shipping above ₹599</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#E5A323]/15 border border-[#E5A323]/60 text-[#3B2418] text-[11px] sm:text-xs font-bold shadow-xs">
+                <span className="text-[#C98A15] font-black text-xs">★</span>
+                <span>Extra 2% Off on App</span>
+              </div>
             </div>
 
          
@@ -235,6 +237,9 @@ export default function HeroSection() {
                   alt="Authentic Bhagvat Prasadam Bhavnagri Gathiya (bhavnagrigathiya) Sealed Pouch"
                   className="relative z-10 w-full max-h-[250px] xs:max-h-[280px] sm:max-h-[320px] object-contain mx-auto transform group-hover:scale-105 transition-transform duration-500 drop-shadow-md"
                   loading="eager"
+                  fetchPriority="high"
+                  width="400"
+                  height="400"
                 />
               </a>
             </motion.div>
@@ -258,9 +263,12 @@ export default function HeroSection() {
               className="absolute -bottom-3 -left-2 sm:-left-4 z-25 w-20 xs:w-24 sm:w-32 h-20 xs:h-24 sm:h-32 rounded-2xl overflow-hidden shadow-lg border-3 sm:border-4 border-white hover:scale-105 transition-transform cursor-pointer block"
             >
               <img
-                src="/bhavnagari-thali.jpg"
+                src="/bhavnagari-thali.webp"
                 alt="Traditional Kathiyawadi Gujarati farsan thali with Bhavnagri Gathiya namkeen"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                width="128"
+                height="128"
               />
             </motion.a>
           </motion.div>

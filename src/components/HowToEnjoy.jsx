@@ -11,7 +11,7 @@ export default function HowToEnjoy() {
       pairing: 'Fried Chillies + Mustard Papaya',
       description:
         'The iconic morning ritual across Gujarat. Crispy, golden gathiya is paired with salted fried green chillies and crunchy mustard raw papaya salad.',
-      image: '/tarela-marcha-sambharo.jpg',
+      image: '/tarela-marcha-sambharo.webp',
     },
     {
       step: '02',
@@ -31,7 +31,7 @@ export default function HowToEnjoy() {
       pairing: 'Curd Garlic Gravy and Bajra Rotlo',
       description:
         'Saurashtra’s beloved comfort food. Simmer gathiya for 2 minutes in a spiced garlic tomato raso for an instant, soul satisfying curry.',
-      image: '/bhavnagari-thali.jpg',
+      image: '/bhavnagari-thali.webp',
     },
     {
       step: '04',
@@ -46,7 +46,7 @@ export default function HowToEnjoy() {
   ];
 
   return (
-    <section id="how-to-enjoy" className="py-10 sm:py-14 md:py-16 bg-[#FFFDF8] border-b border-[#E8DCC8]">
+    <section id="how-to-enjoy" className="py-10 sm:py-14 md:py-16 bg-[#FFFDF8]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Simple & Elegant Section Header */}
@@ -71,10 +71,12 @@ export default function HowToEnjoy() {
           >
             {/* Main High Resolution Banner Image */}
             <img
-              src="/bhavnagri-banner.png"
+              src="/bhavnagri-banner.webp"
               alt="Authentic Bhavnagri Gathiya, Crispy, Tasty, Traditional Gujarati Namkeen"
               className="w-full h-auto object-cover transform group-hover:scale-[1.012] transition-transform duration-700"
               loading="lazy"
+              width="1200"
+              height="600"
             />
 
             {/* Subtle Warm Sheen Overlay on Hover */}

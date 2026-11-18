@@ -79,7 +79,7 @@ export const BHAVNAGRI_PRODUCT = {
     },
     {
       id: 'thali-brass',
-      url: '/bhavnagari-thali.jpg',
+      url: '/bhavnagari-thali.webp',
       alt: 'Bhavnagari Gathiya served on an antique Gujarati brass thali',
       caption: 'Traditional Kathiyawadi Farsan Serving',
       buyUrl: PRODUCT_BUY_URL
@@ -93,7 +93,7 @@ export const BHAVNAGRI_PRODUCT = {
     },
     {
       id: 'chai-banner',
-      url: '/bhavnagari-banner.jpg',
+      url: '/bhavnagari-banner.webp',
       alt: 'Bhavnagari Gathiya paired with hot cutting chai, tarela marcha, and papaya sambharo',
       caption: 'Morning Chai Time Ritual',
       buyUrl: PRODUCT_BUY_URL
@@ -158,7 +158,7 @@ export const BHAVNAGRI_PRODUCT = {
       description:
         'In Gujarat, Bhavnagri Gathiya is never eaten in isolation. A generous heap of golden gathiya is paired with blistered salted green chillies (tarela marcha) and freshly shredded, mustard-tempered raw papaya (sambharo). The juicy, mustard crunch balances the deep pepper warmth perfectly.',
       tasteNotes: ['Tellicherry Pepper', 'Mustard Papaya Crunch', 'Blistered Green Chilli'],
-      image: '/bhavnagari-banner.jpg',
+      image: '/bhavnagari-banner.webp',
       buyUrl: PRODUCT_BUY_URL,
       tag: 'Iconic Breakfast',
       badgeColor: '#B83220'
@@ -186,7 +186,7 @@ export const BHAVNAGRI_PRODUCT = {
       description:
         'A beloved Saurashtra culinary secret. When unannounced guests arrive or you crave comfort food, Bhavnagri Gathiya is tossed into a simmering curd-tomato gravy infused with roasted garlic and hing. It soaks up the spiced raso without dissolving, creating an unforgettable meal.',
       tasteNotes: ['Tangy Buttermilk Gravy', 'Roasted Garlic & Hing', 'Plump Soft Gathiya'],
-      image: '/bhavnagari-thali.jpg',
+      image: '/bhavnagari-thali.webp',
       buyUrl: PRODUCT_BUY_URL,
       tag: 'Heritage Recipe',
       badgeColor: '#E5A323'
@@ -398,7 +398,7 @@ export const BHAVNAGRI_PRODUCT = {
     },
     {
       q: 'How can I contact customer support?',
-      a: 'You can reach our dedicated support team via email at orders@bhagvatprasadam.com or call our customer helpline at +91 98765 43210 (Monday through Saturday, 9:00 AM to 7:00 PM IST).'
+      a: 'You can reach our support team via email at info@megascale.in or call our customer helpline at +91 88500 11652 (Monday through Saturday, 9:00 AM to 7:00 PM IST). Office address: 411-412, New Escon Plaza, Chhaprabhatha Road, Amroli, Surat, Gujarat 394107.'
     }
   ]
 };

@@ -34,10 +34,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`sticky top-0 z-40 w-full transition-all duration-300 ${
+        className={`w-full transition-all duration-300 ${
           isScrolled
-            ? 'bg-[#FFF8E9]/95 backdrop-blur-md shadow-sm border-b border-[#E8DCC8] py-2 sm:py-2.5'
-            : 'bg-[#FFF8E9] py-2.5 sm:py-3.5 border-b border-transparent'
+            ? 'bg-[#FFF8E9]/95 backdrop-blur-md py-2 sm:py-2.5 shadow-xs'
+            : 'bg-[#FFF8E9] py-2.5 sm:py-3.5'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -64,9 +64,11 @@ export default function Navbar() {
                 title="Bhavnagri Gathiya"
               >
                 <img
-                  src="/bhavnagri-gathiya-logo.png"
+                  src="/bhavnagri-gathiya-logo.webp"
                   alt="Bhavnagri Gathiya Official Logo"
-                  className="h-10 sm:h-12 md:h-14 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                  className="h-11 sm:h-12 md:h-13 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                  width="140"
+                  height="52"
                 />
               </a>
             </div>
@@ -122,9 +124,12 @@ export default function Navbar() {
                 title="Bhavnagri Gathiya"
               >
                 <img
-                  src="/bhavnagri-gathiya-logo.png"
-                  alt="Bhavnagri Gathiya"
+                  src="/bhavnagri-gathiya-logo.webp"
+                  alt="Bhavnagri Gathiya Official Logo"
                   className="h-12 w-auto object-contain"
+                  width="120"
+                  height="48"
+                  loading="lazy"
                 />
               </a>
 

@@ -28,6 +28,11 @@
   color-scheme: light;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
 body {
   margin: 0;
   font-family: var(--font-body);

@@ -36,7 +36,7 @@ export default function ProductDetailsAccordion() {
   ];
 
   return (
-    <section id="details" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] border-b border-[#E8DCC8]">
+    <section id="details" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Simple & Clear Section Header */}

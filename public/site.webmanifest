@@ -1,0 +1,31 @@
+{
+  "name": "Bhavnagri Gathiya - Bhagvat Prasadam",
+  "short_name": "Bhavnagri Gathiya",
+  "description": "Authentic Gujarati Bhavnagri Gathiya handcrafted in pure cold-pressed groundnut oil (Sing Tel).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8E9",
+  "theme_color": "#E5A323",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

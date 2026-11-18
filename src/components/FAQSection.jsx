@@ -10,7 +10,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="py-10 sm:py-14 md:py-16 bg-white border-b border-[#E8DCC8] relative">
+    <section id="faq" className="py-10 sm:py-14 md:py-16 bg-white relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

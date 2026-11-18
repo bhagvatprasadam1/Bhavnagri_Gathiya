@@ -1,0 +1,6 @@
+# robots.txt for Bhavnagri Gathiya - Bhagvat Prasadam
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.bhagvatprasadam.com/sitemap.xml

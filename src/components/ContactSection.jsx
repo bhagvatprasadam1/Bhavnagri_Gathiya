@@ -40,7 +40,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] border-b border-[#E8DCC8] relative overflow-hidden">
+    <section id="contact" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] relative overflow-hidden">
       {/* Background Soft Glows */}
       <div className="absolute top-10 left-1/4 w-80 h-80 bg-[#E5A323]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 right-1/4 w-80 h-80 bg-[#F28C28]/10 rounded-full blur-3xl pointer-events-none" />
@@ -75,10 +75,10 @@ export default function ContactSection() {
                   CUSTOMER HELPLINE
                 </span>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918850011652"
                   className="font-display font-black text-base sm:text-lg text-[#3B2418] hover:text-[#F28C28] transition-colors"
                 >
-                  +91 98765 43210
+                  +91 88500 11652
                 </a>
                 <p className="text-xs text-[#7A5F4F] mt-0.5 flex items-center gap-1">
                   <Clock className="w-3 h-3" />
@@ -97,10 +97,10 @@ export default function ContactSection() {
                   OFFICIAL EMAIL SUPPORT
                 </span>
                 <a
-                  href="mailto:orders@bhagvatprasadam.com"
+                  href="mailto:info@megascale.in"
                   className="font-display font-black text-sm sm:text-base text-[#3B2418] hover:text-[#F28C28] transition-colors break-all"
                 >
-                  orders@bhagvatprasadam.com
+                  info@megascale.in
                 </a>
                 <p className="text-xs text-[#7A5F4F] mt-0.5">
                   Average response time: within 4 business hours
@@ -115,13 +115,13 @@ export default function ContactSection() {
               </div>
               <div className="flex-1">
                 <span className="text-[10px] font-black uppercase tracking-wider text-[#F28C28] block">
-                  ORIGIN &amp; FACILITY
+                  CORPORATE OFFICE &amp; DISPATCH
                 </span>
                 <h4 className="font-display font-bold text-xs sm:text-sm text-[#3B2418]">
-                  Bhagvat Prasadam Farsan Kitchen
+                  Megascale: Escon Plaza
                 </h4>
                 <p className="text-xs text-[#7A5F4F] mt-0.5 leading-relaxed">
-                  Nilkanthdham Road, Poicha, Narmada District, Gujarat 393145, India.
+                  411-412, New Escon Plaza, Chhaprabhatha Road, Amroli, Surat, Gujarat 394107
                 </p>
               </div>
             </div>

@@ -1,4 +1,5 @@
-import AnnouncementBar from './components/AnnouncementBar';
+import RotatingAnnouncementBar from './components/RotatingAnnouncementBar';
+import MobileAppHeaderBar from './components/MobileAppHeaderBar';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import BrandStory from './components/BrandStory';
@@ -13,11 +14,17 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-[#FFF8E9] text-[#3B2418]">
-      {/* 1. Slim Announcement Bar with Target SEO Keywords */}
-      <AnnouncementBar text="AUTHENTIC BHAVNAGRI GATHIYA (ભાવનગરી ગાંઠિયા), 100% PURE SING TEL GUJARATI NAMKEEN" />
+      {/* Fixed/Sticky Top Header Container */}
+      <div className="sticky top-0 z-40 w-full shadow-sm">
+        {/* LINE 1: Rotating Free Shipping Announcement Bar */}
+        <RotatingAnnouncementBar />
 
-      {/* 2. Sticky Header & Navigation */}
-      <Navbar />
+        {/* LINE 2: Mobile App Discount Bar (Zero Vertical Gap) */}
+        <MobileAppHeaderBar />
+
+        {/* LINE 3: Main Navigation Bar */}
+        <Navbar />
+      </div>
 
       {/* Main Single Product Content */}
       <main className="flex-1">

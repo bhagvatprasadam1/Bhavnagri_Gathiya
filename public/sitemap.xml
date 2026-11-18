@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.bhagvatprasadam.com/products/bhavnagari-gathiya-crunchy-gujarati-namkeen-snack</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.bhagvatprasadam.com/gathiya-pack-main.webp</image:loc>
+      <image:title>Authentic Bhagvat Prasadam Bhavnagri Gathiya Pack</image:title>
+      <image:caption>Authentic Gujarati Bhavnagri Gathiya handcrafted in pure cold-pressed groundnut oil</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bhagvatprasadam.com/bhavnagari-gathiya-bowl.webp</image:loc>
+      <image:title>Freshly Prepared Crisp Bhavnagri Gathiya Bowl</image:title>
+      <image:caption>Golden crunchy Gujarati tea-time snack Bhavnagri Gathiya with Tellicherry black pepper</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bhagvatprasadam.com/bhavnagari-thali.webp</image:loc>
+      <image:title>Traditional Kathiyawadi Farsan Thali with Bhavnagri Gathiya</image:title>
+      <image:caption>Bhavnagri Gathiya served in traditional Kathiyawadi style with fried chillies and sambharo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bhagvatprasadam.com/bhavnagari-banner.webp</image:loc>
+      <image:title>Bhavnagri Gathiya with Cutting Masala Chai</image:title>
+      <image:caption>Iconic Gujarati morning tea ritual pairing Bhavnagri Gathiya and hot masala chai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bhagvatprasadam.com/tarela-marcha-sambharo.webp</image:loc>
+      <image:title>Tarela Marcha and Raw Papaya Sambharo</image:title>
+      <image:caption>Traditional Gujarati accompaniment for crisp Bhavnagri Gathiya namkeen</image:caption>
+    </image:image>
+  </url>
+</urlset>

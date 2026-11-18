@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 import { WhatsAppIcon } from './SocialIcons';
+import { PlayStoreBadge, AppStoreBadge } from './MobileAppHeaderBar';
 import { PRODUCT_BUY_URL } from '../data/bhavnagriProduct';
 
 export default function Footer() {
@@ -11,7 +12,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer id="footer" className="bg-[#FFF8E9] text-[#3B2418] pt-10 sm:pt-14 pb-5 border-t border-[#E8DCC8] relative overflow-hidden">
+      <footer id="footer" className="bg-[#FFF8E9] text-[#3B2418] pt-10 sm:pt-14 pb-5 relative overflow-hidden">
         {/* Subtle Decorative Leaf Watermarks (Matching Reference Footer Background) */}
         <div className="absolute top-12 right-16 w-36 h-36 opacity-10 pointer-events-none text-[#C88A2E] hidden md:block">
           <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-full h-full rotate-45">
@@ -43,9 +44,12 @@ export default function Footer() {
                   title="Bhavnagri Gathiya"
                 >
                   <img
-                    src="/bhavnagri-gathiya-logo.png"
+                    src="/bhavnagri-gathiya-logo.webp"
                     alt="Bhavnagri Gathiya Official Logo"
                     className="h-14 sm:h-18 w-auto object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-300"
+                    width="180"
+                    height="72"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -128,20 +132,20 @@ export default function Footer() {
               <div className="space-y-2.5 text-xs text-[#5A3B2B]">
                 <div className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-[#A8681E] shrink-0" />
-                  <a href="tel:+919876543210" className="hover:text-[#F28C28] transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+918850011652" className="hover:text-[#F28C28] transition-colors font-medium">
+                    +91 88500 11652
                   </a>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-4 h-4 text-[#A8681E] shrink-0" />
-                  <a href="mailto:orders@bhagvatprasadam.com" className="hover:text-[#F28C28] transition-colors">
-                    orders@bhagvatprasadam.com
+                  <a href="mailto:info@megascale.in" className="hover:text-[#F28C28] transition-colors break-all">
+                    info@megascale.in
                   </a>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-[#A8681E] shrink-0 mt-0.5" />
-                  <span>
-                    Nilkanthdham Road, Poicha, Narmada District, Gujarat 393145
+                  <span className="leading-relaxed">
+                    411-412, New Escon Plaza, Chhaprabhatha Road, Amroli, Surat, Gujarat 394107
                   </span>
                 </div>
               </div>
@@ -153,15 +157,37 @@ export default function Footer() {
         {/* Panoramic Seamless Line-Art Heritage Illustration Banner (FULL SCREEN WIDTH, Transparent Background) */}
         <div className="w-full relative z-10 select-none pointer-events-none overflow-hidden mt-2 sm:mt-4">
           <img
-            src="/footer-heritage-illustration.png"
+            src="/footer-heritage-illustration.webp"
             alt="Traditional Gujarati farsan craftsman making authentic Bhavnagri Gathiya namkeen with brass jara, kadhai, and tea"
             className="w-full h-auto max-h-[360px] object-cover sm:object-contain object-bottom mx-auto"
             loading="lazy"
+            width="1440"
+            height="360"
           />
         </div>
 
+        {/* Footer Mobile App Promotion Bar (Exact footer background, zero extra whitespace before copyright) */}
+        <div className="w-full relative z-10 py-2.5 px-4 bg-[#FFF8E9]">
+          <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-2 text-xs text-[#3B2418]">
+            {/* Desktop text */}
+            <span className="hidden sm:inline font-medium text-[#7A5F4F]">
+              Install <strong className="text-[#3B2418]">Bhagvat Prasadam</strong> App &amp; Get{' '}
+              <span className="font-extrabold text-[#A8681E]">2% Extra Discount</span> on Every Order! Available on:
+            </span>
+            {/* Mobile compact text */}
+            <span className="inline sm:hidden font-medium text-[#7A5F4F] text-[11px]">
+              Install App &amp; Get <span className="font-black text-[#A8681E]">2% Off</span>:
+            </span>
+            {/* Play Store & App Store Centered Badges */}
+            <div className="inline-flex items-center gap-1.5 shrink-0">
+              <PlayStoreBadge />
+              <AppStoreBadge />
+            </div>
+          </div>
+        </div>
+
         {/* Bottom Copyright & SEO Semantic Keyword Line */}
-        <div className="w-full relative z-10 border-t border-[#E8DCC8]/70 text-center py-4 text-xs text-[#7A5F4F]">
+        <div className="w-full relative z-10 text-center py-3.5 text-xs text-[#7A5F4F]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
         
             <p>
@@ -173,7 +199,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Contact Widget (Bottom Right, matching reference design) */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/918850011652"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"

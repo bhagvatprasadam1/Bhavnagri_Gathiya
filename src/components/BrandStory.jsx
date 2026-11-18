@@ -8,7 +8,7 @@ export default function BrandStory() {
   };
 
   return (
-    <section id="story" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] relative overflow-hidden border-b border-[#E8DCC8]">
+    <section id="story" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] relative overflow-hidden">
       {/* Background Subtle Ambient Shape */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#E5A323]/10 rounded-full blur-3xl -translate-y-1/2 pointer-events-none" />
 
@@ -27,10 +27,12 @@ export default function BrandStory() {
               className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-[4/3] w-full max-w-lg bg-white block group cursor-pointer"
             >
               <img
-                src="/bhavnagari-banner.jpg"
+                src="/bhavnagari-banner.webp"
                 alt="Traditional Bhavnagri Gathiya served with hot masala tea, fried green chillies, and papaya sambharo"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
+                width="800"
+                height="600"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
             </a>
@@ -44,9 +46,12 @@ export default function BrandStory() {
               className="absolute -bottom-4 -right-2 sm:-right-4 w-36 sm:w-48 aspect-square rounded-2xl overflow-hidden shadow-lg border-4 border-white hidden sm:block bg-white hover:scale-105 transition-transform cursor-pointer"
             >
               <img
-                src="/bhavnagari-thali.jpg"
-                alt="Antique brass thali of farsan"
+                src="/bhavnagari-thali.webp"
+                alt="Antique brass thali of authentic Bhavnagri farsan"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                width="192"
+                height="192"
               />
             </a>
           </div>

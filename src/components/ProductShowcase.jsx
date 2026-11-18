@@ -11,7 +11,7 @@ export default function ProductShowcase() {
   };
 
   return (
-    <section id="product-showcase" className="py-10 sm:py-14 md:py-16 bg-white relative border-b border-[#E8DCC8]">
+    <section id="product-showcase" className="py-10 sm:py-14 md:py-16 bg-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Title */}
@@ -86,9 +86,9 @@ export default function ProductShowcase() {
             </div>
 
             {/* Title */}
-            <h1 className="font-display font-black text-3xl sm:text-4xl text-[#3B2418] tracking-tight leading-tight mb-2">
+            <h2 className="font-display font-black text-3xl sm:text-4xl text-[#3B2418] tracking-tight leading-tight mb-2">
               {BHAVNAGRI_PRODUCT.title} <span className="text-xl sm:text-2xl text-[#A8681E] font-normal">({BHAVNAGRI_PRODUCT.titleHindi})</span>
-            </h1>
+            </h2>
 
             {/* Subtitle */}
             <p className="text-xs sm:text-sm font-semibold text-[#F28C28] mb-3">
@@ -102,7 +102,7 @@ export default function ProductShowcase() {
 
             {/* Key Quality & Craft Highlights */}
             <div className="rounded-2xl bg-[#FFF8E9] border border-[#E8DCC8] p-4 sm:p-5 space-y-2.5 mb-5">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#3B2418] block border-b border-[#E8DCC8]/60 pb-1.5">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#3B2418] block pb-1">
                 Authentic Recipe Highlights
               </span>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs text-[#3B2418]">
@@ -126,7 +126,7 @@ export default function ProductShowcase() {
             </div>
 
             {/* PROMINENT DIRECT BUY NOW BUTTON */}
-            <div className="space-y-2.5 mb-4">
+            <div className="space-y-2.5 mb-3">
               <a
                 href={PRODUCT_BUY_URL}
                 target="_blank"
@@ -144,6 +144,22 @@ export default function ProductShowcase() {
               >
                 <span>View Full Ingredients &amp; Specifications</span>
               </button>
+            </div>
+
+            {/* Free Shipping & App Offer Badges */}
+            <div className="flex flex-wrap items-center gap-2 mb-4">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFF8E9] border border-[#E8DCC8] text-[#3B2418] text-[11px] sm:text-xs font-semibold">
+                <span className="text-[#2E7D32] font-black">✓</span>
+                Free Shipping above ₹999
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFF8E9] border border-[#E8DCC8] text-[#3B2418] text-[11px] sm:text-xs font-semibold">
+                <span className="text-[#2E7D32] font-black">✓</span>
+                First Order: Free Shipping above ₹599
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#E5A323]/20 border border-[#E5A323]/60 text-[#3B2418] text-[11px] sm:text-xs font-bold">
+                <span className="text-[#C98A15] font-black">★</span>
+                2% Extra App Discount
+              </span>
             </div>
 
           

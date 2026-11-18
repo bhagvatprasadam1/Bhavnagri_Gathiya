@@ -17,7 +17,7 @@ export default function ProductBenefits() {
   };
 
   return (
-    <section id="why-us" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] border-b border-[#E8DCC8] relative">
+    <section id="why-us" className="py-10 sm:py-14 md:py-16 bg-[#FFF8E9] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -51,7 +51,7 @@ export default function ProductBenefits() {
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-[#E8DCC8]/60 flex items-center gap-1.5 text-xs text-[#E5A323] font-bold">
+              <div className="mt-4 pt-2 flex items-center gap-1.5 text-xs text-[#E5A323] font-bold">
                 <span>The Authentic Choice</span>
               </div>
             </div>
